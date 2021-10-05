@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanvi fitness</title>
+
+    
+</head>
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Baloo+Bhai+2?query=baloo+b">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+        color:white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img.jpg');
+    }   
+    .left{
+        display: inline block;
+        position: absolute;
+        left: 34px;
+        top: 22px;
+        color: lavenderblush;
+    }
+    .left img{
+        width: 100px;
+    }
+    .mid{
+        width: 43%;
+        margin: 20px auto;
+        display: block;
+        border: 2px;
+    }
+    .right{
+       position: absolute;
+       right: 34px;
+       top: 22px;
+       display: inline block;
+   
+    }
+    .btn{
+        background-color: rgb(25, 61, 73);
+        color: white;
+        padding: 4px 14px;
+        border: 2px gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: rgb(241, 243, 247);
+    }
+    .navbar li a:hover , .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+     .navbar{
+         display: inline;
+     }   
+    .navbar li{
+        display: inline;
+        color: tan;
+        font-size: 25px;
+    }
+    .navbar li a {
+        color: rgb(85, 129, 165);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .contener{
+        color:rgb(247, 230, 230);
+        margin: 170px 1000px;
+        padding: 30px 30px;
+        width: 20%;
+        border-style: double; color:white;
+        text-align: center;
+
+    }
+    
+</style>
+<body>
+    <header class="header">
+         <!-- left box for logo -->
+        <div class="left">
+          <img src="images.jpg" alt="">  
+          <div>Dhanvi Fitness</div>
+            
+        </div>
+        <!-- mid box for nav -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Routinew</a></li>
+                <li><a href="#">Diet Plan</a></li>
+            </ul>
+            
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <input type="text" placeholder="Search..">
+            <button class="btn">Email Us</button>
+           
+
+
+        </div>
+
+    </header>
+    <div class="contener">
+        <div>
+           <h1> <b> Register Here</b></h1>
+            Name  : <input type="text">
+            <br>
+            <br>
+            Email id: <input type="text">
+            <br>
+            <br>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input
+            type="radio" name="myGender"> 
+            <br>
+            <br>
+            <label for="pay">Payment Method:</label>
+            <select name="Payment Method" id="pay">
+            <option value="Gpay">Gpay</option>
+            <option value="Card">Card</option>
+            <option value="Cash">Cash</option>
+        </select>
+        <br>
+        <br>
+            <input type="submit" value="Submit now">
+
+        </div>
+        <div class="text">
+            <H1>HURRY UP AND JOIN!!!</H1>
+        </div>
+</body>
+</html>
